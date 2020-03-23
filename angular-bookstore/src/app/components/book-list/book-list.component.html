@@ -1,4 +1,4 @@
-<table border="1">
+<table border="1" class="table">
     <thead>
         <tr>
             <th>Image</th>
@@ -10,8 +10,8 @@
     <tbody>
         <tr *ngFor="let book of books">
             <td>
-                <img [src]="book.imageUrl" height="100" /> 
-                <!-- <img src = "assets/images/books/text100.jpg" height="100" width="50" /> -->
+                <img [src]="book.imageUrl" height="100" />
+                <!-- <img src = "https://images-na.ssl-images-amazon.com/images/I/51brRiwC0ML._SX331_BO1,204,203,200_.jpg" height="100" width="50" /> -->
             </td>
             <td>{{book.name}}</td>
             <td>{{book.description}}</td>
